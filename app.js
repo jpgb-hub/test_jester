@@ -7,15 +7,15 @@ const fromEuroToDollar = function(valueInEuro){
 }
 
 // declaramos una funcion con el mismo nombre "fromDollarToYen"
-const fromDollarToYen = function(valueInYen){
+const fromDollarToYen = function(valueInDollar){
     // convertimos el valor a dolares
-    let valueIn = valueInDollar * 153.48;
+    let valueInYen = valueInDollar * 153.48;
     // retornamos el valor
     return valueInYen;
 }
 
 // declaramos una funcion con el mismo nombre "fromYenToPounds"
-const fromYenToPounds = function(valueInPounds){
+const fromYenToPounds = function(valueInYen){
     // convertimos el valor a dolares
     let valueInPounds = valueInYen * 0.006;
     // retornamos el valor
