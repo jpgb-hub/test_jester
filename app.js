@@ -17,20 +17,20 @@ const fromDollarToYen = function(valueInYen){
 // declaramos una funcion con el mismo nombre "fromYenToPounds"
 const fromYenToPounds = function(valueInPounds){
     // convertimos el valor a dolares
-    let valueInPounds = valueInYen * 102.32;
+    let valueInPounds = valueInYen * 0.006;
     // retornamos el valor
     return valueInPounds;
 }
 
 // esta es mi función que suma dos números
-const sum = (a,b) => {
-    return a + b
-}
+//const sum = (a,b) => {
+    //return a + b
+//}
 
 // solo un registro en consola para nosotros.
-console.log(sum(7,3))
+//console.log(sum(7,3))
 
 // exporta la función para usarla en otros archivos 
 // (similar a la palabra clave `export` cuando se usa webpack)
 // tenemos que incluir la funcion en el exports para que sea exportada a otros archivos como test.js
-module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPounds }
+module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPounds }
